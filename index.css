@@ -503,11 +503,14 @@ li{
 .social_container{
     width: 80%;
     justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .social{
     height: 50px;
     width: 50px;
+    margin: 10px;
     /* background-color: rgb(216, 191, 191); */
 }
 
@@ -570,19 +573,20 @@ li{
         display: flex;
 
         flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
     }
 
     .social{
-        margin: auto;
-        margin-top: 10px;
+        margin: 10px;
+        /* margin-top: 10px; */
     }
 
     .footer_logo{
-        font-size: 25px;
+        font-size: 20px;
     }
-    
+
     .heading_about{
-        font-size:auto ;
-        margin : auto ;
+        font-size: 15px;
     }
 }
