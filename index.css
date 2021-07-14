@@ -580,4 +580,9 @@ li{
     .footer_logo{
         font-size: 25px;
     }
+    
+    .heading_about{
+        font-size:auto ;
+        margin : auto ;
+    }
 }
